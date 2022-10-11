@@ -1,0 +1,13 @@
+.brand-name{
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+    font-size: 28px;
+}
+.nav-link a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: tomato;
+}
