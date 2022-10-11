@@ -1,0 +1,25 @@
+.question-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin: 40px 20px;
+    align-items: center;
+}
+.img-section img{
+    width: 100%;
+    border-radius: 15px;
+}
+.qustion-section{
+    text-align: justify;
+    padding: 20px 10px;
+}
+.question{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+@media screen and (max-width:668px) {
+    .question-section{
+        grid-template-columns: 1fr;
+    }
+}
