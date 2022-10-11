@@ -5,12 +5,14 @@ import Main from './layout/Main';
 import Home from './components/Home/Home';
 import Blogs from './components/Blogs/Blogs';
 import Statistics from './components/Statistics/Statistics';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 function App() {
   const router = createBrowserRouter([
     {
       path: '/',
       element: <Main></Main>,
+      errorElement: <ErrorPage></ErrorPage>,
       children: [
         {
           path: '/',

@@ -11,7 +11,7 @@ const ShowTopic = ({ topic }) => {
            <div className='topic-info'>
             <h3 className='topic-name'>{name}</h3>
             <button className='practice-btn'>
-                <Link to={'/quize'}>Practice</Link>
+                <Link to={'/quize'}>start Practice</Link>
             </button>
            </div>
 
