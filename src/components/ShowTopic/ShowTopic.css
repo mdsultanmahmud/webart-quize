@@ -1,0 +1,36 @@
+.topic{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid tomato;
+}
+.topic-logo{
+    width: 200px;
+    border-radius: 10px;
+    background-color: black;
+    margin: 20px auto;
+    display: block;
+}
+.topic-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topic-name{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.practice-btn{
+    padding: 8px 18px;
+    background-color: tomato;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px; 
+    font-size: 14px;
+}
+.practice-btn a{
+    text-decoration: none;
+    color: white;
+}

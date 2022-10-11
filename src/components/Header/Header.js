@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import './Header.css'
 const Header = () => {
     return (
-        <Navbar bg="dark" expand="lg">
+        <Navbar bg="dark" expand="lg" >
           <Container>
             <Navbar.Brand > 
                 <Link className='brand-name' to={'/'}>Web<span style={{color:'tomato'}}>Art</span></Link>

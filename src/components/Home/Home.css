@@ -1,0 +1,12 @@
+.topic-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 20px 0;
+}
+.topic-header{
+    margin: 10px 0;
+    background-color: black;
+    color: tomato;
+    padding: 10px 0;
+}
