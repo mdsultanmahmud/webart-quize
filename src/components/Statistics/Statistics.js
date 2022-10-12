@@ -1,7 +1,6 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import { BarChart, Bar, Cell, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
-
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import './Statistics.css'
 const Statistics = () => {
     const quizeTopicData = useLoaderData()
@@ -22,7 +21,7 @@ const Statistics = () => {
                     <Tooltip />
                     <Legend />
                     <Line type="monotone" dataKey="total" stroke="#8884d8" activeDot={{ r: 8 }} />
-                </LineChart>
+                </LineChart>               
             </div>  
         </div>
     );

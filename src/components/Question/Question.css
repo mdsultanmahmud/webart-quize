@@ -1,0 +1,25 @@
+.single-question {
+    padding: 20px;
+    margin: 40px auto;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.option {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.single-option {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.ans{
+    margin: 0 10px;
+}
