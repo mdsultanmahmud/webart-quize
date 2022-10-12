@@ -9,17 +9,30 @@
 .option {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-gap: 15px;
 }
 
 .single-option {
-    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     display: flex;
     align-items: center;
     padding: 10px;
+    border: 1px solid tomato;
 }
 
+.qsn{
+    margin-bottom: 25px;
+}
 .ans{
     margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    background:none;
+    width: 100%;
+}
+
+@media screen and (max-width:668px) {
+    .option{
+        grid-template-columns: 1fr;
+    }
 }
