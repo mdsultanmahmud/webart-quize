@@ -34,7 +34,7 @@ function ShowCarousel() {
 
         <Carousel.Caption>
           <h3 style={{color:'tomato'}}>Learning Someting New</h3>
-          <p>For shinging in life, gather knowladge</p>
+          <p>For shining in life, gather knowladge</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={2000}>
