@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Question from '../Question/Question';
 
@@ -13,6 +13,7 @@ const Quize = () => {
                 questions.map(question => <Question 
                     key={question.id}
                  SingleTopicQuestion={question}
+
                 ></Question>)
             }
         </div>

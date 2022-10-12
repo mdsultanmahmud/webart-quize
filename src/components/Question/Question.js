@@ -1,9 +1,12 @@
-import React from 'react';
+
 import './Question.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
+
+
+
 const Question = ({ SingleTopicQuestion }) => {
     const { correctAnswer, id, options, question } = SingleTopicQuestion
     const regexForStripHTML = /(<([^>]+)>)/gi
@@ -18,24 +21,29 @@ const Question = ({ SingleTopicQuestion }) => {
     }
     const notify = () => toast(correctMsg);
     const correctAns = () => toast(correctAnswer)
-    return (
-        <div className='single-question'>
-            
-            <div className='qsn'>
-                <h5>{stripQuestion}</h5>
-                <FontAwesomeIcon onClick={correctAns} style={{cursor:'pointer'}} icon={faEye}></FontAwesomeIcon>
-            </div>
-            <div className='option'>
-                {
-                    options.map(option => <DisplayOption
-                        option={option}
-                        id={id}
-                        checkAns={checkAns}
-                        notify={notify}
-                    ></DisplayOption>)
-                }
-            </div>
 
+
+
+    return (
+        <div>
+            <div className='single-question'>
+                
+                <div className='qsn'>
+                    <h5>{stripQuestion}</h5>
+                    <FontAwesomeIcon onClick={correctAns} style={{ cursor: 'pointer' }} icon={faEye}></FontAwesomeIcon>
+                </div>
+                <div className='option'>
+                    {
+                        options.map(option => <DisplayOption
+                            option={option}
+                            id={id}
+                            checkAns={checkAns}
+                            notify={notify}
+                        ></DisplayOption>)
+                    }
+                </div>
+
+            </div>
         </div>
     );
 };

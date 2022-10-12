@@ -1,12 +1,12 @@
-# Getting Started with Create React App
+### `Project Name: WebArt`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live Website Link][https://zippy-licorice-5003d0.netlify.app/]
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
+### `Feature of this project`
+1. I use react for this project.
+2. Here, I use react router for navigating one page to another page.
+3. You can se some practice topic in this website.
+4. You can also practice some question.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
