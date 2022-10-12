@@ -22,6 +22,9 @@
 
 .qsn{
     margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .ans{
     margin: 0 10px;

@@ -17,12 +17,13 @@ const Question = ({ SingleTopicQuestion }) => {
         }
     }
     const notify = () => toast(correctMsg);
+    const correctAns = () => toast(correctAnswer)
     return (
         <div className='single-question'>
             
             <div className='qsn'>
                 <h5>{stripQuestion}</h5>
-                <FontAwesomeIcon icon={faEye}></FontAwesomeIcon>
+                <FontAwesomeIcon onClick={correctAns} style={{cursor:'pointer'}} icon={faEye}></FontAwesomeIcon>
             </div>
             <div className='option'>
                 {
